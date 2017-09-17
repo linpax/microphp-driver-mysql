@@ -1,0 +1,20 @@
+{
+  "name": "linpax/microphp-driver-mysql",
+  "description": "MicroPHP driver MySQL",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zcasper",
+      "email": "testuser@mail.linpax.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Micro\\Driver\\Mysql\\": "src/"
+    }
+  },
+  "require": {
+    "linpax/microphp-driver-pdo": "dev-master"
+  }
+}
